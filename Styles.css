@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(imagenes/Programacion1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.title{
+    font-size: 1.6em;
+    color: whitesmoke;
+    margin: 0em;
+    padding: 25px 30px;
+    font-weight: bold;
+
+
+
+}
+.logo{
+    width: 300px;
+    height: 300px;
+}
+
+.cards {
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%; 
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+.cards:hover{
+    background-color: rgb(131, 127, 117) ;
+}
+#principal{
+    font-size: 4.5em;
+}
+#titulos{
+    
+    width: 60vw;
+    margin: auto;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards-container{
+
+    
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.content{
+    color: antiquewhite;
+    width: 60vw;
+    margin: auto;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
